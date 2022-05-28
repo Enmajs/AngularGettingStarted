@@ -1,0 +1,7 @@
+<div class="containerHeroes">
+  <p>{{ title | uppercase }}</p>
+  <p>{{ hero.name | lowercase }}</p>
+  <p>{{ hero.status }}</p>
+  <label for="name">Hero name: </label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name" />
+</div>
